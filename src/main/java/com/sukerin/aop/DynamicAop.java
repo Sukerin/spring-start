@@ -17,7 +17,7 @@ public class DynamicAop {
                 System.out.println("start2");
                 Object re =method.invoke(iaop, args);
                 System.out.println("end2");
-                //112
+                //1123
                 return re;
             }
         };
